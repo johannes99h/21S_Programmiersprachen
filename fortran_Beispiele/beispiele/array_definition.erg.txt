@@ -1,0 +1,80 @@
+ Ausgabe des ersten Feldes x :
+   1.000000    
+   2.000000    
+   3.000000    
+   4.000000    
+   5.000000    
+   6.000000    
+   7.000000    
+   8.000000    
+   9.000000    
+   10.00000    
+ Ausgabe des zweiten Feldes y :
+  -1.000000    
+  -2.000000    
+  -3.000000    
+  -4.000000    
+  -5.000000    
+ Ausgabe des dritten Feldes z :
+   2.000000    
+   3.000000    
+   4.000000    
+   5.000000    
+   6.000000    
+ 
+ 
+ Ausgabe ueber implizite do-Schleife
+ 
+ Ausgabe des ersten Feldes x :
+      1.00000
+      2.00000
+      3.00000
+      4.00000
+      5.00000
+      6.00000
+      7.00000
+      8.00000
+      9.00000
+     10.00000
+ Ausgabe des zweiten Feldes y :
+     -1.00000
+     -2.00000
+     -3.00000
+     -4.00000
+     -5.00000
+ Ausgabe des dritten Feldes z :
+      2.00000
+      3.00000
+      4.00000
+      5.00000
+      6.00000
+ 
+ Ausgabe ueber implizite do-Schleife
+ immer 3 Werte in eine Zeile schreiben
+ 
+ Ausgabe des ersten Feldes x :
+      1.00000      2.00000      3.00000
+      4.00000      5.00000      6.00000
+      7.00000      8.00000      9.00000
+     10.00000
+ Ausgabe des zweiten Feldes y :
+     -1.00000     -2.00000     -3.00000
+     -4.00000     -5.00000
+ Ausgabe des dritten Feldes z :
+      2.00000      3.00000      4.00000
+      5.00000      6.00000
+ 
+ das Array summe wurde mit Werten vorbelegt
+ 
+ 
+ Nach Fortran 77 - Syntax (Wert jeweils 1.1)
+   1.100000       1.100000       1.100000       1.100000       1.100000    
+ 
+ Nach Fortran 90/95 - Syntax (Wert jeweils 0.0)
+  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00  0.0000000E+00
+ 
+ summe(j) = y(j) + z(j)
+   1.000000       1.000000       1.000000       1.000000       1.000000    
+ 
+ summe = y - z
+  -3.000000      -5.000000      -7.000000      -9.000000      -11.00000    

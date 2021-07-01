@@ -1,0 +1,29 @@
+ Listengesteuerte Ausgabe einzeln:
+   1.234567    
+   222222.2    
+ -3.3332999E-05
+ 
+ Formatgesteuerte Ausgabe '(F13.4)':
+        1.2346
+   222222.2031
+        0.0000
+ 
+ Formatgesteuerte Ausgabe '(E13.4)':
+    0.1235E+01
+    0.2222E+06
+   -0.3333E-04
+ 
+ Formatgesteuerte Ausgabe '(ES13.4)':
+    1.2346E+00
+    2.2222E+05
+   -3.3333E-05
+ 
+ Formatgesteuerte Ausgabe '(EN13.4)':
+    1.2346E+00
+  222.2222E+03
+  -33.3330E-06
+ 
+ Formatgesteuerte Ausgabe '(G13.4)':
+     1.235    
+    0.2222E+06
+   -0.3333E-04

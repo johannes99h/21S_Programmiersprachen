@@ -1,0 +1,3 @@
+f90: Error: falscher_umgang.f90, line 7: An assignment to a DO variable within a DO body is invalid.   [I]
+      i = 5 
+------^

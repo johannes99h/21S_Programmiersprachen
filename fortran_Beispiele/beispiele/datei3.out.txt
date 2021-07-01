@@ -1,0 +1,7 @@
+> ./a.out
+  Bitte geben Sie den Namen der zu lesenden Datei
+ (nicht in Anfuehrungszeichen eingeschlossen) an: datei3.erg
+  Als Name der Datei wurde eingelesen: datei3.erg          
+ 
+ Beim OEffnen der Datei trat   Systemfehler Nr.           29  auf
+

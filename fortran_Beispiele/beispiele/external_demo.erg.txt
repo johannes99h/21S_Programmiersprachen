@@ -1,0 +1,2 @@
+ Mittelwert  f(x)  von   [0.0,10.0] (n=3)  =    5.000000    
+ Mittelwert  f1(x) von   [0.0,1.0] (n=10)  =    1.745329    

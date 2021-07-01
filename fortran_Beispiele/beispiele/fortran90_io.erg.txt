@@ -1,0 +1,6 @@
+  Ausgabe des Vektors ueber:   write(*,*) v 
+   1.000000       1.414214       1.732051    
+ 
+  Ausgabe der ersten beiden Vektorkomponenten ueber:   write(*,*) v(1:2): 
+   1.000000       1.414214    
+

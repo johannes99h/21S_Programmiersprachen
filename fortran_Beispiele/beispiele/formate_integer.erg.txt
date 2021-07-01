@@ -1,0 +1,11 @@
+ Umgewandelt wird:
+          73
+
+ In eine Binaerzahl (Zahlen-Basis 2):
+     1001001
+
+ In eine Octal (Zahlen-Basis 8):
+         111
+
+ In eine Hexadezimalzahl(Zahlen-Basis 16):
+          49

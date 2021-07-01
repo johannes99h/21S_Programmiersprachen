@@ -1,0 +1,9 @@
+#!/bin/tcsh
+#PBS -l nodes=4, ppn=2, walltime=01:00:00
+#PBS -j oe
+
+cd $PBS_O_WORKDIR
+hostname
+date
+./a.out < eingabedatei
+date

@@ -1,0 +1,8 @@
+nur zwei Variablen dazu
+"Vorsicht, flieg nicht aus dem Spielfeld" -> "nicht zu +delta, gehe zu -delta"
+	-> soll inelastisch reflektiert werden
+
+
+verwende die Musterlösung!!!
+
+etwa vier bis fünf Zeilen, protected Variablen nicht vergessen zu definieren

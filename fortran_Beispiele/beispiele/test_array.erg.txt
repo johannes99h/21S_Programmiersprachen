@@ -1,0 +1,9 @@
+ shape(a)   =           10           3
+ 
+ size(a)    =           30
+ 
+ lbound(a)  =           -5           1
+ 
+ ubound(a)  =            4           3
+ 
+ Der kleinste Zeilenindex ist:           -5 

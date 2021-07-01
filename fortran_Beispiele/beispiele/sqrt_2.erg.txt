@@ -1,0 +1,6 @@
+ Berechnung von Wurzel aus 2 mit doppelter Genauigkeit
+ Ergebnis aus Maple     :    1.4142135623730950
+ richtig: sqrt(2.0d0)   =    1.4142135623730951     
+ falsch : sqrt(2.0)     =    1.4142135381698608      <= !!! falsch !!!
+ richtig: sqrt(dble(2)) =    1.4142135623730951     
+ falsch : sqrt(real(2)) =    1.4142135381698608      <= !!! falsch !!!

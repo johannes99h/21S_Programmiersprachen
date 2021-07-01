@@ -1,0 +1,23 @@
+ urspruengliche Matrix:
+  1.1  1.2  1.3
+  2.1  2.2  2.3
+  3.1  3.2  3.3
+  4.1  4.2  4.3
+
+ von jeder Komponente wurde 1.0 abgezogen:
+  0.1  0.2  0.3
+  1.1  1.2  1.3
+  2.1  2.2  2.3
+  3.1  3.2  3.3
+
+ von jeder Komponente wurde nochmals 1.0 abgezogen:
+ -0.9 -0.8 -0.7
+  0.1  0.2  0.3
+  1.1  1.2  1.3
+  2.1  2.2  2.3
+
+ von jeder Komponente wurde jetzt der Betrag gebildet:
+  0.9  0.8  0.7
+  0.1  0.2  0.3
+  1.1  1.2  1.3
+  2.1  2.2  2.3

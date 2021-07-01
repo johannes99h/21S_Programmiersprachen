@@ -1,0 +1,5 @@
+ Listengesteuerte Ausgabe:
+ T F
+ 
+ Formatgesteuerte Ausgabe '(2(1X,L5))':
+     T     F

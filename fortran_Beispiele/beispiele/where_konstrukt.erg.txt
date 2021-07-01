@@ -1,0 +1,23 @@
+ urspruengliche Matrix:
+    1.1    1.2    1.3
+    2.1    2.2    2.3
+    3.1    3.2    3.3
+    4.1    4.2    4.3
+
+ von jeder Komponente wurde 3.0 abgezogen:
+   -1.9   -1.8   -1.7
+   -0.9   -0.8   -0.7
+    0.1    0.2    0.3
+    1.1    1.2    1.3
+
+ Bedingte logarithmische Umformung (Fortran 77)
+     -9.99999E+04     -9.99999E+04     -9.99999E+04
+     -9.99999E+04     -9.99999E+04     -9.99999E+04
+     -2.30259E+00     -1.60944E+00     -1.20397E+00
+      9.53101E-02      1.82321E-01      2.62364E-01
+
+ Bedingte logarithmische Umformung (where-Konstrukt Fortran 90)
+     -9.99999E+04     -9.99999E+04     -9.99999E+04
+     -9.99999E+04     -9.99999E+04     -9.99999E+04
+     -2.30259E+00     -1.60944E+00     -1.20397E+00
+      9.53101E-02      1.82321E-01      2.62364E-01

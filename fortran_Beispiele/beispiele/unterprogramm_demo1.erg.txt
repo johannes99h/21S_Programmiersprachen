@@ -1,0 +1,7 @@
+ Berechnet die Hypotenusenlaenge eines rechtwinkligen Dreiecks
+ Bitte die Laenge der Seiten eingeben:
+2. 3.
+ Die Laenge der Hypotenuse betraegt:      3.60555
+
+ Aufruf der Subroutine ueber call hypotonuse(3.0,4.0,c)
+ Die Laenge der Hypotenuse bei a=3.0, b= 4.0 betraegt:      5.00000

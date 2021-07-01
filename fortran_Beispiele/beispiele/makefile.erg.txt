@@ -1,0 +1,4 @@
+f90 -c main.f90 
+f90 -c f.f90
+f90 -c mittelwert.f90
+f90 -o hauptprogramm main.o f.o mittelwert.o

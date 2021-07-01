@@ -1,0 +1,17 @@
+Geben Sie einen Wert fuer x ein (0 fuer Programmende): 2.3334
+ 
+ Anzahl der bisherigen Aufrufe dieser subroutine:           0
+ eingegeben wurde: x =    2.333400    
+ 
+Geben Sie einen Wert fuer x ein (0 fuer Programmende): 5353245.
+ 
+ Anzahl der bisherigen Aufrufe dieser subroutine:           1
+ eingegeben wurde: x =    5353245.    
+ 
+Geben Sie einen Wert fuer x ein (0 fuer Programmende): -5.
+ 
+ Anzahl der bisherigen Aufrufe dieser subroutine:           2
+ eingegeben wurde: x =   -5.000000    
+ 
+Geben Sie einen Wert fuer x ein (0 fuer Programmende): 0
+

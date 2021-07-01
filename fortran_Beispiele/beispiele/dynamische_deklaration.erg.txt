@@ -1,0 +1,19 @@
+ Demo-Programm zur dynamischen Speicherallokierung
+ Betrachtet wird eine Matrix (2-dim. Datenfeld)
+ 
+ Bitte geben Sie die gewuenschten Werte ein
+ Anzahl an Zeilen:  5
+ Anzahl an Spalten: 3
+ 
+ 
+ Rueckgabewert von allocate:           0
+ 
+ Die Matrix sieht nun so aus:
+ 
+   1.100000       1.200000       1.300000    
+   2.100000       2.200000       2.300000    
+   3.100000       3.200000       3.300000    
+   4.100000       4.200000       4.300000    
+   5.100000       5.200000       5.300000    
+ 
+ Rueckgabewert von deallocate:           0

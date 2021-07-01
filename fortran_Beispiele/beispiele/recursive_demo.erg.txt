@@ -1,0 +1,21 @@
+ ----------------------------------------
+  Beispiel zum rekursiven Programmaufruf 
+ ----------------------------------------
+ 
+ recursive fuction fakultaet(n) result(product):
+ 
+ fakultaet(0) =            1
+ fakultaet(1) =            1
+ fakultaet(2) =            2
+ fakultaet(3) =            6
+ fakultaet(4) =           24
+ fakultaet(5) =          120
+ fakultaet(6) =          720
+ fakultaet(7) =         5040
+ 
+ 
+ recursive subroutine factorial(n,ergebnis)
+ 
+ call factorial(4,wert), wert =           24
+ 
+

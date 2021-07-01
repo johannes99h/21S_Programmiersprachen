@@ -1,0 +1,33 @@
+ ausdruck1            = diesunddas
+ ausdruck2            = .erg
+ ausdruck3            = dies das  
+ 
+ len(ausdruck1)       =           10
+ len(ausdruck2)       =            4
+ len(ausdruck3)       =           10
+ 
+ ausdruck1(5:7)       = und
+ ausdruck2(1:1)       = .
+ 
+ ausdruck1//ausdruck2 = diesunddas.erg
+ 
+ Die Stelle (den Index) des 1. Leerzeichens in ausdruck3 finden:
+ index(ausdruck3,' ') =            0
+ 
+ Die Nummer eines Zeichens in der ASCII-Tabelle finden:
+ ichar('a')           =           97
+ 
+ Zu der Nummer in die ASCII-Tabelle das korresp. Zeichen finden:
+ achar(65)            = A
+ 
+ In der ASCII-Tabelle, das auf das 'A' folgende Zeichen finden:
+ achar(ichar('A')+1)  = B
+ 
+ von ausdruck3 das erste Wort ausgeben:
+ 
+ 
+ Sukzessive Dateinamen zusammensetzen: 
+ datei1.dat
+ datei2.dat
+ datei3.dat
+

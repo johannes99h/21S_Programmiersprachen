@@ -1,0 +1,55 @@
+1....6..|.........|.........|.........|.........|.........|.........|..xxxxxxxx
+ 
+      PROGRAM <name>
+C Kommentare, die sich bis in Spalte 72 (einschliesslich) erstrecken
+C duerfen (evtl. Variablenliste)
+C
+C      
+C Vereinbarung der Variablen
+      IMPLICIT NONE
+C     Variablendeklarationen
+C     Optional: Unterprogrammdeklarationen
+      EXTERNAL <Liste der Namen der Unterprogramme>      
+C     Veraltet:
+      COMMON/<name>/<Liste der Variablen>
+C       
+C
+C Programmanweisungen      
+      Zeile1------------------------------maximale Ausdehnng Spalte 72 
+     *----Fortsetzung der oberen Zeile (in 6. Spalte mit * markieren)
+          Zeile 2 (Einrueckungen sind moeglich)
+          ...
+10   Zeile i evtl. in Spalte 1 bis 5 mit einer Nummerierung versehen
+     ...
+     Zeile n
+     END
+C
+C
+C     
+C optional: Unterprogramm ohne Rueckgabewert
+      SUBROUTINE <S_Name> <(Liste der uebergebenen Variablen)> 
+      Variablendeklaration (die hier deklarierten Variablen sind nur
+      im Unterprogramm (lokal) gueltig)
+      Variablendeklaration der oben in der Liste
+     *                                       uebergebenen Variablen  
+      COMMON/<name>/<Liste der Variablen>
+      Algorithmuszeilen des Unterprogramms     
+      END             
+C
+C
+C optional: Unterprogramm mit Rueckgabewert       
+       <Typ des Rueckgabewerts> FUNCTION <F_Name> <(Liste der ueber-
+     *                                             gebenen Variablen)>
+      Variablendeklaration (die hier deklarierten Variablen sind nur
+     *                               im Unterprogramm (lokal) gueltig)
+      Variablendeklaration der oben in der Liste
+     *                                       uebergebenen Variablen  
+      COMMON/<name>/<Liste der Variablen>
+      Algorithmuszeilen des Unterprogramms     
+      RETURN
+      END
+C
+C
+C optional: weitere Unterprogramme
+C
+C     

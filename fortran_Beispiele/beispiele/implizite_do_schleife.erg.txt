@@ -1,0 +1,6 @@
+  Ausgabe des Vektors ueber write(*,*) ( v(i), i = 1, 3) :
+      1.00000         1.41421         1.73205
+
+ Neue Wertzuweisung z=v*v (Fortran 90 - Syntax)
+ Ausgabe aller Komponenten von z ueber write(*,*) z :
+      1.00000         2.00000         3.00000

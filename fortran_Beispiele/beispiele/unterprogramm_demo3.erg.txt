@@ -1,0 +1,21 @@
+ Das Programm berechnet Werte zu
+  f(x) = a*x**2 + b*x +c
+ Bitte geben Sie die Werte fuer a, b und c ein:
+2. 3. -1
+ Wertetabelle fuer f(x) fuer x von 1 .. 10:
+    x          f(x)
+ ------------------
+  0.00    -1.00
+  1.00     4.00
+  2.00    13.00
+  3.00    26.00
+  4.00    43.00
+  5.00    64.00
+  6.00    89.00
+  7.00   118.00
+  8.00   151.00
+  9.00   188.00
+ 10.00   229.00
+
+ Aufruf der Funktion f(x,a,b,c) mit direkter Werteuebergabe
+ z.B.  f(2.0,1.0,-1.0,-1.0) =      1.00000

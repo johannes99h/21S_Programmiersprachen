@@ -1,0 +1,13 @@
+ Die Matrix matrix sieht nun so aus:
+ 
+   1.100000       1.200000       1.300000       1.400000    
+   2.100000       2.200000       10.00000       2.400000    
+   3.100000       3.200000       3.300000       3.400000    
+ 
+ Rueckgabewerte von maxloc(matrix) sind die Indices, an denen
+ die groesste Komponente sitzt:
+ 
+           2           3
+ 
+ Zeilenindex der groessten Komponente von matrix:             2
+ Spaltenindex der groessten Komponente von matrix:            3

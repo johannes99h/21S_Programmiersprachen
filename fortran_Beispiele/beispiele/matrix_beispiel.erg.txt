@@ -1,0 +1,37 @@
+ Zur Kontrolle des Schleifendurchlaufs werden jeweils
+ der aktuelle Zeilenindex, Spaltenindex und Wert innerhalb
+ der Schleife ausgegeben
+
+ Zeile:           1   Spalte:            1   Wert:      1.10000
+ Zeile:           2   Spalte:            1   Wert:      2.10000
+ Zeile:           3   Spalte:            1   Wert:      3.10000
+ Zeile:           1   Spalte:            2   Wert:      1.20000
+ Zeile:           2   Spalte:            2   Wert:      2.20000
+ Zeile:           3   Spalte:            2   Wert:      3.20000
+ Zeile:           1   Spalte:            3   Wert:      1.30000
+ Zeile:           2   Spalte:            3   Wert:      2.30000
+ Zeile:           3   Spalte:            3   Wert:      3.30000
+
+ Ausgabe der Matrix (write(*,'(3(1X,F5.1))') ( (matrix(i,j),j=1,3), i=1,3 )
+   1.1   1.2   1.3
+   2.1   2.2   2.3
+   3.1   3.2   3.3
+
+ Ausgabe nach Fortran 90/95 - Syntax
+   1.1   1.2   1.3
+   2.1   2.2   2.3
+   3.1   3.2   3.3
+
+ Fortran 90/95 bietet die Moeglichkeit, Datenfelder
+ direkt in der im Speicher vorliegenden (sequentiellen) Form
+ auszuschreiben ( write(*,*) matrix )
+
+      1.10000         2.10000         3.10000         1.20000         2.20000
+      3.20000         1.30000
+      2.30000         3.30000
+
+ Bemerkung:
+ Die Komponenten des 2-dim. Datenfeldes wurden in der
+ speicheraequivalenten Reihenfolge und somit
+ spaltenorientiert ausgegeben.
+

@@ -1,0 +1,15 @@
+> f90 einlesen.f90 
+> ./a.out
+  Bitte geben Sie den Namen der zu lesenden Datei
+ (nicht in Anfuehrungszeichen eingeschlossen) an: datei1.dat
+  Als Name der Datei wurde eingelesen: datei1.dat          
+ 
+  Zeilennummer =            1  Wert =  -12.00000    
+  Zeilennummer =            2  Wert =   30.00010    
+  Zeilennummer =            3  Wert =   1.000000    
+  Zeilennummer =            4  Wert =  1.5000000E-11
+  Zeilennummer =            5  Wert =  -3.141953    
+ 
+  Hinweis: das Dateiende wurde erreicht
+  => In der Datei sind insgesamt            5 Werte
+

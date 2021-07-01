@@ -1,0 +1,31 @@
+
+ Bitte geben Sie einen max. 20 Zeichen langen Text ein!
+ listengesteuertes Einlesen mit read(*,*)
+123 56789
+
+ Ausgabe der Zeichenkette nach Einlesen mit read(*,*)
+ 123
+ ....5....|....5....|
+
+ Bitte geben Sie erneut einen max. 20 Zeichen langen Text ein!
+ formatiertes Einlesen mit read(*,'(A)')
+123 56789
+
+ Ausgabe der Zeichenkette nach Einlesen mit read(*,'(A)')
+ 123 56789
+ ....5....|....5....|
+
+ weitere Verarbeitung von Zeichenketten:
+
+ len(zeichenkette1):           20
+ len(zeichenkette2):           20
+ len_trim(zeichenkette1):            3
+ len_trim(zeichenkette2):            9
+
+ das 1. bis einschliesslich das 7. Zeichen ausgeben lassen
+ zeichenkette1(1:7): 123
+ zeichenkette2(1:7): 123 567
+
+ die Stelle anzeigen lassen, an der das 1. Leerzeichen auftritt
+ index(zeichenkette1,' '):            4
+ index(zeichenkette2,' '):            4

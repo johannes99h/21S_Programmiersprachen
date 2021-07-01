@@ -1,0 +1,9 @@
+> ./a.out
+  Bitte geben Sie den Namen der zu lesenden Datei
+ (nicht in Anfuehrungszeichen eingeschlossen) an: datei2.dat
+  Als Name der Datei wurde eingelesen: datei2.dat          
+ 
+  Zeilennummer =            1  Wert =  -12.00000    
+  Zeilennummer =            2  Wert =   30.00010    
+ Beim Lesen von Zeile            3  ist ein Fehler aufgetreten
+

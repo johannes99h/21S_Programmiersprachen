@@ -1,0 +1,30 @@
+  definiert wurde:
+ integer :: i = 123, j = -123 , k = 123456 , l = -123456, m = 12345678 
+  i = 123
+ Listengesteuerte Ausgabe einzeln:
+         123
+        -123
+      123456
+     -123456
+    12345678
+ 
+ Listengesteuerte Ausgabe der Variablenliste
+         123        -123      123456     -123456    12345678
+ 
+ Formatgesteuerte Ausgabe '(5I9)':
+      123     -123   123456  -123456 12345678
+ 
+ Formatgesteuerte Ausgabe '(4I10)' und 5 Werte:
+      123     -123   123456  -123456 12345678
+ 
+ Formatgesteuerte Ausgabe '(4I10)' und 5 Werte:
+       123      -123    123456   -123456
+  12345678
+ 
+ Formatgesteuerte Ausgabe '(I5)' einzeln:
+ Achtung: zu kleine Feldbreite bei k, l, m
+  123
+ -123
+*****
+*****
+*****

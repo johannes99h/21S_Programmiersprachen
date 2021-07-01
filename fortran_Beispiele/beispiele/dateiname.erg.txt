@@ -1,0 +1,10 @@
+ Demoprogramm: zusammengesetzte Dateinamen
+ Geben Sie den gewuenschten Dateinamen ein (max. 40 Zeichen):
+ausgabedatei
+ Geben Sie eine positive ganze Zahl (max. 3 Zeichen)
+ die als Endung des Dateinamens verwendet werden soll:
+95
+
+ Der zusammengesetzte Dateiname lautet:
+ ausgabedatei.095
+

@@ -1,0 +1,17 @@
+
+ vor der Schleife:  i =            1
+ in der Schleife:   i =            1
+
+ vor der Schleife:  i =            2
+ in der Schleife:   i =            2
+
+ vor der Schleife:  i =            3
+
+ vor der Schleife:  i =            4
+ in der Schleife:   i =            4
+
+ vor der Schleife:  i =            5
+ in der Schleife:   i =            5
+
+ nach der Schleife: i =           6
+

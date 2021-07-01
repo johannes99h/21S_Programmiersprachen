@@ -1,0 +1,12 @@
+gespro: main.o f.o mittelwert.o
+	f90 -o gespro main.o f.o mittelwert.o
+main.o: main.f90
+	f90 -c main.f90 
+f.o: f.f90
+	f90 -c f.f90
+mittelwert.o: mittelwert.f90
+	f90 -c mittelwert.f90
+clean:
+	rm *.o
+cleanall:
+	rm *.o gespro

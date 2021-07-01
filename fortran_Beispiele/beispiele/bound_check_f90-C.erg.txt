@@ -1,0 +1,8 @@
+At line 7 of file bound_check.f90
+Fortran runtime error: Index '4' of dimension 1 of array 'a' above upper bound of 3
+
+Error termination. Backtrace:
+#0  0x40076c in bound_check
+	at /home/nuss/s0bewink/fortran2020/bound_check.f90:7
+#1  0x4007a0 in main
+	at /home/nuss/s0bewink/fortran2020/bound_check.f90:9

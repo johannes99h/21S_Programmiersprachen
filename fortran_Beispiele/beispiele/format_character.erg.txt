@@ -1,0 +1,28 @@
+ Listengesteuerte Ausgabe einzeln:
+ abcde
+ 1234567890
+ 
+ Listengesteuerte Ausgabe hintereinander:
+ abcde1234567890
+ 
+ formatgesteuerte Ausgabe '(2A)':
+abcde1234567890
+ 
+ formatgesteuerte Ausgabe '(1X,A,1X,A)':
+ abcde 1234567890
+ 
+ formatgesteuerte Ausgabe '(1X,A10,1X,A10)':
+      abcde 1234567890
+ 
+ formatgesteuerte Ausgabe '(1X,A5,1X,A5)':
+ abcde 12345
+ 
+ Zeilenumbruch im Formatbeschreiber:
+ formatgesteuerte Ausgabe '(1X,A,/,A)':
+ abcde
+1234567890
+ 
+ Setzen von Tabulatoren:
+ formatgesteuerte Ausgabe '(T1,A,T12,A)':
+abcde      1234567890
+ 

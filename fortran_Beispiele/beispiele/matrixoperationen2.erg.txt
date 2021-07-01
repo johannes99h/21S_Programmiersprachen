@@ -1,0 +1,57 @@
+ m1:
+  1.1  1.2  1.3
+  2.1  2.2  2.3
+  3.1  3.2  3.3
+ m2:
+  0.0  0.0  0.0
+  0.0  0.0  0.0
+  0.0  0.0  0.0
+ m3:
+  1.0  0.5  0.3
+  0.5  0.3  0.3
+  0.3  0.3  0.2
+ m2 = transpose(m1):
+  1.1  2.1  3.1
+  1.2  2.2  3.2
+  1.3  2.3  3.3
+ Die 3. Zeile von m2 mit -1.0 multiplizieren
+
+ m2:
+  1.1  2.1  3.1
+  1.2  2.2  3.2
+ -1.3 -2.3 -3.3
+ Groesster Wert von m2:
+      3.20000
+ bei Index:            2           3
+ Groesster Wert von m2 entlang der Hauptdiagonalen:
+      2.20000
+ bei Index:            2           2
+
+ m2:
+  1.1  2.1  3.1
+  1.2  2.2  3.2
+ -1.3 -2.3 -3.3
+ Spaltenmaxima von m2:
+  1.2  2.2  3.2
+ Zeilenmaxima von m2:
+  3.1
+  3.2
+ -1.3
+
+ m3 = cshift(m2,2,1)
+ -1.3 -2.3 -3.3
+  1.1  2.1  3.1
+  1.2  2.2  3.2
+
+ Vektoren:
+ v1 als Zeilenvektor:
+  1.0  2.0 -1.0
+ v2 als Spaltenvektor:
+  1.0
+  0.0
+ -1.0
+
+ Skalarprodukt v1.v2:
+      2.00000
+ Betrag des Vektors v1 (Euklidsche Norm):
+      2.44949

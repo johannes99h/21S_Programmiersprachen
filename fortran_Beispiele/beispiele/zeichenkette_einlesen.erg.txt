@@ -1,0 +1,18 @@
+ Geben Sie eine Zeichenkette mit max. 30 Zeichen ein:
+ zum listengesteuerten Einlesen
+abcdefg,45 hdf
+ 
+ Geben Sie erneut eine Zeichenkette mit max. 30 Zeichen ein:
+ zum formatgesteuerten Einlesen
+abcdefg,45 hdf
+ 
+ die beiden Zeichenketten werden nun wieder ausgegeben
+ 
+ die listengesteuert eingelesene Zeichenkette:
+....|....1....|....2....|....3
+abcdefg                       
+ 
+ die formatgesteuert eingelesene Zeichenkette:
+....|....1....|....2....|....3
+abcdefg,45 hdf                
+
